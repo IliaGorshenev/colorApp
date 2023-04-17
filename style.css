@@ -25,6 +25,12 @@ body {
     flex-direction: row;
 }
 
+@media all and (max-width: 720px) {
+    .body {flex-direction: column;}
+    .col {flex-direction: row;
+    padding: 30px 0;}
+}
+
 .button {
     align-self: center;
     background-color: transparent;

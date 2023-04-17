@@ -21,6 +21,7 @@ document.addEventListener('keydown', (evt) => {
 
 document.addEventListener('click', (evt) => {
     evt.target.tagName === "BUTTON" ? changeLock(evt.target) : false  
+    evt.target.tagName === "DIV" ? updateColor() : false
 })
 
 const setTextColor = function (text, color) {
